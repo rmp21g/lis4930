@@ -1,0 +1,22 @@
+print("Payroll Calculator")
+
+print("\nProgram Requirements:")
+print("1. Must use float data type for user input.")
+print("2. Overtime rate: 1.5 times hourly rate (hours over 40).")
+print("3. Holiday rate: 2.0 times hourly rate (all holiday hours).")
+print("4. Must format currency with dollar sign, and round to two decimal places.")
+print("5. Create at least three functions that are called by the program:")
+print("    a. main(): calls at least two other functions.")
+print("    b. get_requirements(): displays the program requirements.")
+print("    c. calculate_payroll(): calculates an individual's one-week paycheck.")
+
+print("\nInput:")
+print("Enter hours worked: 50")
+print("Enter holiday hours: 10")
+print("Enter hourly pay rate: 10")
+
+print("\nOutput:")
+print("Base:     $400.00")
+print("Overtime: $150.00")
+print("Holiday:  $200.00")
+print("Gross:    $750.00")
